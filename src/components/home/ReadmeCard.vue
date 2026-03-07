@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { marked } from "marked";
 import { ref, onMounted } from "vue";
-import readmeRaw from "@/content/readme.md?raw";
+import readmeRaw from "../../../README.md?raw";
 
 const renderedHtml = ref("");
 
