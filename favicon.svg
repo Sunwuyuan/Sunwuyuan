@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256" fill="none">
+<rect x="0" y="0" width="256" height="128"   fill="#D6E3FF" >
+</rect>
+<rect x="0" y="128" width="256" height="128"   fill="#ECF0FF" >
+</rect>
+<g opacity="0.92">
+<path d="M48 208L128 128L128 208L48 208ZM208 128L128 128L128 208L208 128Z" fill-rule="evenodd"  fill="#415F91" >
+</path>
+<path d="M48 128L128 48L128 128L48 128ZM208 48L128 48L128 128L208 48Z" fill-rule="evenodd"  fill="#8EACE3" >
+</path>
+</g>
+</svg>

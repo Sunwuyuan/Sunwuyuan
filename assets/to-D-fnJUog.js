@@ -1,0 +1,1 @@
+import{_ as o,c as r,a as n,b as s,w as a,r as l,o as _,d as c}from"./index-DiaSv8zz.js";const d={};function u(f,e){const t=l("router-link");return _(),r("div",null,[e[1]||(e[1]=n("h1",null,"链接页面",-1)),s(t,{to:"/"},{default:a(()=>e[0]||(e[0]=[c("返回首页")])),_:1,__:[0]})])}const m=o(d,[["render",u]]);export{m as default};
