@@ -48,5 +48,3 @@
 [![QQ群](https://img.shields.io/badge/QQ-零猫社区-0084FF?style=flat-square&logo=qq&logoColor=white)](https://qm.qq.com/q/KZUOzukVC8)
 [![邮箱](https://img.shields.io/badge/邮件-sun@wuyuan.dev-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:sun@wuyuan.dev)
 [![Blog](https://img.shields.io/badge/Blog-wuyuan.dev-111111?style=flat-square&logo=vercel&logoColor=white)](https://wuyuan.dev)
-
-<div rel="me" href="https://mastodon.social/@sunwuyuan">Mastodon</div>
