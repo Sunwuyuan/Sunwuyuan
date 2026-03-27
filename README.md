@@ -49,4 +49,4 @@
 [![邮箱](https://img.shields.io/badge/邮件-sun@wuyuan.dev-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:sun@wuyuan.dev)
 [![Blog](https://img.shields.io/badge/Blog-wuyuan.dev-111111?style=flat-square&logo=vercel&logoColor=white)](https://wuyuan.dev)
 
-<a rel="me" href="https://mastodon.social/@sunwuyuan">Mastodon</a>
+<div rel="me" href="https://mastodon.social/@sunwuyuan">Mastodon</div>
