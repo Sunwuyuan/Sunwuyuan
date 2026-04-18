@@ -41,6 +41,7 @@
 [![Bilibili](https://img.shields.io/badge/Bilibili-悟元喵-00A1D6?style=flat-square&logo=bilibili)](https://space.bilibili.com/661404066)
 [![Zhihu](https://img.shields.io/badge/Zhihu-孙悟元-0084FF?style=flat-square&logo=zhihu&logoColor=white)](https://www.zhihu.com/people/Sunwuyuan)
 [![X](https://img.shields.io/badge/X-@wuyuandev-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/wuyuandev)
+[![Bluesky](https://img.shields.io/badge/Bluesky-@wuyuan.dev-0f73ff?style=flat-square&logo=bluesky&logoColor=white)](https://bsky.app/profile/wuyuan.dev)
 [![爱发电](https://img.shields.io/badge/爱发电-孙悟元-FF4090?style=flat-square&logo=afdian&logoColor=white)](https://ifdian.net/@wydev)
 [![零猫](https://img.shields.io/badge/零猫-孙悟元-8eace3?style=flat-square)](https://zerocat.dev/wuyuan)
 [![Kernyr](https://img.shields.io/badge/Kernyr-孙悟元-aac7ff?style=flat-square)](https://kernyr.wuyuan.dev/u/wuyuan/summary)
