@@ -1,0 +1,23 @@
+[
+  {
+    "id": "wuyuan",
+    "name": "孙悟元",
+    "title": "博主",
+    "avatar": "/media/avatar.png",
+    "url": "/about"
+  },
+  {
+    "id": "jacopo",
+    "name": "Jacopo",
+    "title": "厚浪云",
+    "avatar": "/media/avatar.png",
+    "url": "/about"
+  },
+  {
+    "id": "zhaishis",
+    "name": "翟十光",
+    "title": "安得广厦千万间，人间何处桃花源。",
+    "avatar": "/friends/zhaishiguang.png",
+    "url": "https://zhaishis.com"
+  }
+]

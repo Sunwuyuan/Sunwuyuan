@@ -1,0 +1,13 @@
+dist
+node_modules
+.DS_Store
+.vscode
+.idea
+*.log
+*.tmp
+.claude
+.codex
+typed-router.d.ts
+.vercel
+.env*.local
+.next
