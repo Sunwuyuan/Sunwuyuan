@@ -11,6 +11,8 @@ const nextConfig = {
   distDir: isDev
     ? path.join("node_modules", ".cache", "wuyuan-next-dev")
     : ".next",
+  // GitHub Pages 仅支持静态文件，生产构建导出到 out/
+  ...(isDev ? {} : { output: "export" }),
 };
 
 export default nextConfig;
