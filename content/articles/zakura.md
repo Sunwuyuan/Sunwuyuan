@@ -2,6 +2,7 @@
 title: 协同提升 Agent 的智能
 description: 介绍 Zakura，我们新的智能体聚合平台
 date: 2026-08-10
+cover: /media/products/zakura-1.png
 authors:
   - wuyuan
 tags:
