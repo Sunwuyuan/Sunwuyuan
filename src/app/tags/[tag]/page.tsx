@@ -1,9 +1,26 @@
+import type { Metadata } from "next"
 import Link from "next/link"
 import { ArticleCard } from "@/components/article-card"
 import { getTags, listArticles } from "@/lib/articles"
+import { pageMetadata } from "@/lib/seo"
 
 export function generateStaticParams() {
   return getTags().map((tag) => ({ tag }))
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ tag: string }>
+}): Promise<Metadata> {
+  const { tag } = await params
+  const decoded = decodeURIComponent(tag)
+  const count = listArticles({ tag: decoded }).length
+  return pageMetadata({
+    title: decoded,
+    description: `标签「${decoded}」下的 ${count} 篇文章。`,
+    path: `/tags/${encodeURIComponent(decoded)}`,
+  })
 }
 
 export default async function TagPage({

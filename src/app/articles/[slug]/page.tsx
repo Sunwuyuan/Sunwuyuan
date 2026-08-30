@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ArticleCover } from "@/components/article-cover"
@@ -8,11 +9,35 @@ import {
   BlogShell,
 } from "@/components/blog-frame"
 import { Comment } from "@/components/comment"
+import { JsonLd } from "@/components/json-ld"
 import { getArticlePromo } from "@/lib/authors"
 import { getArticleBySlug, listArticles } from "@/lib/articles"
+import { articleJsonLd, pageMetadata } from "@/lib/seo"
 
 export function generateStaticParams() {
   return listArticles().map((article) => ({ slug: article.slug }))
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}): Promise<Metadata> {
+  const { slug } = await params
+  const article = getArticleBySlug(slug)
+  if (!article) return { title: "未找到文章" }
+
+  return pageMetadata({
+    title: article.title,
+    description: article.description,
+    path: article.url,
+    image: article.cover,
+    type: "article",
+    publishedTime: article.date,
+    authors: article.authors.map((author) => author.name),
+    tags: article.tags,
+    section: article.category,
+  })
 }
 
 function formatDateZh(iso: string) {
@@ -33,6 +58,7 @@ export default async function ArticlePage({
 
   return (
     <BlogShell>
+      <JsonLd data={articleJsonLd(article)} />
       {/* 标题区：全宽，不与侧栏并排 */}
       <BlogSection hero>
         <div className={BLOG_HERO_PAD}>

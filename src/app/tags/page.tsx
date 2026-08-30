@@ -1,5 +1,13 @@
+import type { Metadata } from "next"
 import Link from "next/link"
+import { pageMetadata } from "@/lib/seo"
 import { getArticlesByTagCount, getTags } from "@/lib/tag-utils"
+
+export const metadata: Metadata = pageMetadata({
+  title: "标签",
+  description: "按标签浏览孙悟元的文章。",
+  path: "/tags",
+})
 
 export default function TagsPage() {
   const tags = getTags().map((tag) => ({

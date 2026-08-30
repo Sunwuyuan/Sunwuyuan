@@ -1,5 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
+import type { Metadata } from "next"
 import { marked } from "marked"
 import {
   BLOG_HERO_PAD,
@@ -7,6 +8,14 @@ import {
   BlogShell,
 } from "@/components/blog-frame"
 import { Comment } from "@/components/comment"
+import { pageMetadata } from "@/lib/seo"
+
+export const metadata: Metadata = pageMetadata({
+  title: "关于",
+  description:
+    "关于孙悟元：来自中国的高二学生，独立开发者。正在做零猫社区、Classworks、OpenIn、Kernyr。",
+  path: "/about",
+})
 
 export default function AboutPage() {
   const raw = fs.readFileSync(path.join(process.cwd(), "README.md"), "utf8")
