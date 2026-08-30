@@ -11,3 +11,4 @@ typed-router.d.ts
 .vercel
 .env*.local
 .next
+out
