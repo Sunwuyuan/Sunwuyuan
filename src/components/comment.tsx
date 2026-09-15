@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"
 import "@waline/client/waline.css"
 
 const SERVER_URL =
-  "https://api.zcservice.houlang.cloud/comment/ff7b665c1d2dc9de2f499ed14f09bb9b"
+  "https://api.zerocat.dev/comment/ff7b665c1d2dc9de2f499ed14f09bb9b"
 
 export function Comment() {
   const ref = useRef<HTMLDivElement>(null)
