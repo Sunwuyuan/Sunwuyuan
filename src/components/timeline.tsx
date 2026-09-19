@@ -39,7 +39,7 @@ export function Timeline({ userId = 1 }: { userId?: number }) {
       setError("")
       try {
         const res = await fetch(
-          `https://api.zcservice.houlang.cloud/posts/user/${userId}`
+          `https://api.zerocat.dev/posts/user/${userId}`
         )
         if (!res.ok) throw new Error("获取帖子失败")
         const result = await res.json()
